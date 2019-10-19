@@ -43,6 +43,14 @@ body {
   font-size: 40px;
 }
 
+.temperature-degree-color {
+    color: rgb(0, 0, 0);
+}
+
+.temperature-degree-symbol::before {
+  content: "\00b0";
+}
+
 .temperature-description-section {
   display: flex;
   align-items: center;
