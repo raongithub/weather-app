@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,38 @@
     <link rel="stylesheet" href="./main.css">
     <title>Weather</title>
 </head>
+
 <body>
-    
+
+    <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">34</h2>
+            <span>F</span>
+        </div>
+
+        <div class="temperature-description-section">
+            <label class="label">Temperature Description:</label>
+            <span class="temperature-description description-label"></span>
+        </div>
+
+        <div class="daily-description-section">
+            <label class="label">Daily Description:</label>
+            <span class="daily-description description-label"></span>
+        </div>
+
+        <div class="hourly-description-section">
+            <label class="label">Hourly Description:</label>
+            <span class="hourly-description description-label"></span>
+        </div>
+    </div>
+
     <script src="app.js"></script>
     <script src="skycons.js"></script>
 </body>
+
 </html>
